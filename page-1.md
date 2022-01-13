@@ -13,4 +13,8 @@ the personality typology system attitudinal psyche describes the attitudes peopl
 - 3x: the insecure position means negative image of self and negative image of others
 - 4x: the unbothered position means negative image of self and positive image of others
 
+reference [this](https://www.attitudinalpsyche.com/attitudes/) page for more information on each attitude (combination of aspect and position)
+
 when you combine the 4 aspects and 4 positions, it results in 24 unique ap types 
+
+![Image](attitudinal-psyche.png)
