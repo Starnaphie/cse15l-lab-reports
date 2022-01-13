@@ -1,1 +1,1 @@
-![Image](lab-report-1-screenshot.png)
+![Screenshot 1](lab-report-1-screenshot.png)
