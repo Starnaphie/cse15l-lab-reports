@@ -21,7 +21,7 @@ when you combine the 4 aspects and 4 positions, it results in 24 unique ap types
 
 ---
 
-*so i recognize a lot of these markdowns are borrowed my discord*
+*so i recognize a lot of these markdowns are borrowed by discord*
 > guess that makes it easier to learn ;p
 
 `learntypology();`
