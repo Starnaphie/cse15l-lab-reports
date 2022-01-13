@@ -18,3 +18,12 @@ reference [this](https://www.attitudinalpsyche.com/attitudes/) page for more inf
 when you combine the 4 aspects and 4 positions, it results in 24 unique ap types 
 
 ![Image](attitudinal-psyche.png)
+
+---
+
+*so i recognize a lot of these markdowns are borrowed my discord*
+> guess that makes it easier to learn ;p
+`learntypology();`
+1. FVLE
+2. FELV
+3. LVFE
