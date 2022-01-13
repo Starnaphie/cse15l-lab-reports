@@ -1,3 +1,4 @@
+# Attitudinal Psyche
 the personality typology system attitudinal psyche describes the attitudes people may have towards **4 aspects** (emotion, logic, volition, and physics by placing them in **4 positions** (confident, flexible, insecure, and unbothered)
 
 ## 4 aspects
