@@ -10,7 +10,7 @@ Here is an outline of the steps detailed on this page:
 5. [Setting an SSH Key](#step-5)
 6. [Optimizing Remote Running](#step-6)
 
-## <a name="step-1"></a> Installing VScode 
+## <a name="step-1"> Installing VScode </a>
 ![Screenshot 1](photos/lr1/installing-vscode.png)
 ## <a name="step-2"></a> Remotely Connecting
 ![Screenshot 1](photos/lr1/remotely-connecting.png)
