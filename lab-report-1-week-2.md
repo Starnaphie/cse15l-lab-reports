@@ -63,7 +63,7 @@ If the following text shows up in your terminal, you're in!
 Next you can practice using some terminal commands!
 
 Try typing some of these into both your local and remote computers:<br/>
-> **```exit```** - will let you leave the remote server and return to your computer
+> **```exit```** - will let you leave the remote server and return to your computer<br/>
 - ```ls```
 - ```cd```
 - ```cd -a```
@@ -92,9 +92,12 @@ With ```WhereAmI.java``` created, type
 
 > scp WhereAmI.java cs15lwi22[y/c]@ieng6.ucsd.edu:~/
 
-into your terminal and, if successful, enter in your password.
+into your terminal. (**Remember to replace the ```[y/c]```**!) If that was successful, the terminal should ask you to enter your password; type in your course-specific account password. If unsuccessful, please do not contact me; contact your professor or TA. :v:
 
 ![Screenshot 1](photos/lr1/moving-files.png)
+
+To check if file was moved, you can return to the remote computer and ```ls``` to confirm! 
+
 ## <a name="step-5"></a> Setting an SSH Key
 ![Screenshot 1](photos/lr1/ssh-key.png)
 ## <a name="step-6"></a> Optimizing Remote Running
