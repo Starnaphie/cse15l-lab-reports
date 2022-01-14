@@ -49,17 +49,51 @@ If things aren't functioning correctly, go to #2
 Part 2 of step 2 will be establishing the remote connection.
 In your terminal, type
 
-```ssh cs15lwi22[y/c]@ieng6.ucsd.edu```
+> ssh cs15lwi22[y/c]@ieng6.ucsd.edu
 
+after the prompt. **Make sure to replace the ```[y/c]``` with your unique account code**! 
 
-after the prompt. Where ```[y/c]``` refers to your unique account code.
+The terminal should respond by asking for your password. When you type in your password (the one you just made for your course-specific account), keep in mind **the terminal won't display what you type** but what you type *will still go through*!
 
+If the following text shows up in your terminal, you're in!
 
+![SSH in](photos/lr1/remotely-connecting.png)
 
-![Screenshot 1](photos/lr1/remotely-connecting.png)
 ## <a name="step-3"></a> Trying Some Commands
-![Screenshot 1](photos/lr1/trying-commands.png)
+Next you can practice using some terminal commands!
+
+Try typing some of these into both your local and remote computers:<br/>
+> **```exit```** - will let you leave the remote server and return to your computer
+- ```ls```
+- ```cd```
+- ```cd -a```
+- ```ls <directory>```
+- ```cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/```
+
+You can look up your own terminal commands to test, too! Have fun with it~
+
+![Command Examples](photos/lr1/trying-commands.png)
+
 ## <a name="step-4"></a> Moving Files with scp
+Now that you've grown a little more familiar with using terminal, let's figure out how to move local files to the remote computer. For this introduction, the professor has provided the following file to practice with.
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
+With ```WhereAmI.java``` created, type
+
+> scp WhereAmI.java cs15lwi22[y/c]@ieng6.ucsd.edu:~/
+
+into your terminal and, if successful, enter in your password.
+
 ![Screenshot 1](photos/lr1/moving-files.png)
 ## <a name="step-5"></a> Setting an SSH Key
 ![Screenshot 1](photos/lr1/ssh-key.png)
