@@ -13,9 +13,9 @@ Here is an outline of the steps detailed on this page:
 Now, let's get you ready for this class!
 
 ## <a name="step-1"></a> Installing VScode 
-**Disclaimer**: VScode is the IDE the professor will be using in this class, so downloading it would make lectures and tutorials easier to follow, but you *can* use another IDE. Getting VScode is still highly recommended.
+**Disclaimer**: VScode is the IDE the professor will be using in this class, so downloading it would make lectures and tutorials easier to follow, but you *can* use another IDE. Getting VScode is still highly recommended!
 
-Just like another other app, installing VScode just takes a quick Google search. In fact, because it has the sweet quality of being *free*, we don't even need to pirate it. 
+Just like any other other app, installing VScode just takes a quick Google search. In fact, because it has the sweet quality of being *free*, we don't even need to pirate it. 
 Going to **[this](https://code.visualstudio.com/download)** link should take you to a page with the following screen. 
 
 ![VScode Download Page](photos/lr1/installing-vscode.png)
@@ -28,10 +28,11 @@ The coming steps will mostly be done using the VScode terminal, so, to set that 
 On MacOS, you can access the terminal with ctrl + upArrow + ` or by going to the app's menu bar and clicking ```New Terminal```.
 
 ![VScode New Terminal](photos/lr1/installing-vscode3.png)
+
 If you have an operating system that is not MacOs -> professor or TA ;D
 
 ## <a name="step-2"></a> Remotely Connecting
-Part 1 of step 2 will be the only part of the remainder of this tutorial not in VScode. Before remotely connecting to **ieng6**, you will need to set up your course-specific account. 
+Part 1 of step 2, **Remotely Connecting**, will be the only part of the remainder of this tutorial not in VScode. Before remotely connecting to **ieng6**, you will need to set up your course-specific account. 
 
 You can go to **[this](https://sdacs.ucsd.edu/~icc/index.php)** link to get that done. This was the step I personally had the most difficulty with, so I will try to give some tips. 
 - Get this step done before class, because everyone trying to sign into the acccount lookup at the same time is hard on the server
@@ -45,7 +46,13 @@ If things aren't functioning correctly, go to #2
     1. Wait
     2. **Contact professor or TA**
 
-Part 2 will be establishing the remote connection.
+Part 2 of step 2 will be establishing the remote connection.
+In your terminal, type
+
+```ssh cs15lwi22[y/c]@ieng6.ucsd.edu```
+
+
+after the prompt. Where ```[y/c]``` refers to your unique account code.
 
 
 
