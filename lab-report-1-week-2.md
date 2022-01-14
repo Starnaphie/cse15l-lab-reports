@@ -1,6 +1,6 @@
 # Lab Report 1
 Hello, incoming CSE 15L student (or future me)! <br/>
-My name is Stephanie and I will be in charge of getting your course specific account on **ieng6** - the UCSD server that you, as a CSE student, have access to - set up. My credentials are that I myself have successfully been through this process... less than a week ago... and I did encounter ~~several~~ a higher than average number of obstacles along the way, but hopefully that will be sufficient. 
+My name is Stephanie and I will be in charge of getting your course specific account on **ieng6** - the UCSD server that you, as a CSE student, have access to - set up. My credentials are that I myself have successfully been through this process... less than a week ago... and I did encounter ~~several~~ a higher-than-average number of obstacles along the way, but hopefully that will be sufficient. 
 
 Here is an outline of the steps detailed on this page:
 1. [Installing VScode](#step-1)
