@@ -10,17 +10,17 @@ Here is an outline of the steps detailed on this page:
 5. [Setting an SSH Key](#step-5)
 6. [Optimizing Remote Running](#step-6)
 
-## <a href="step-1"></a> Installing VScode 
+## <a name="step-1"></a> Installing VScode 
 ![Screenshot 1](photos/lr1/installing-vscode.png)
-## <a href="step-2"></a> Remotely Connecting
+## <a name="step-2"></a> Remotely Connecting
 ![Screenshot 1](photos/lr1/remotely-connecting.png)
-## <a href="step-3"></a> Trying Some Commands
+## <a name="step-3"></a> Trying Some Commands
 ![Screenshot 1](photos/lr1/trying-commands.png)
-## <a href="step-4"></a> Moving Files with scp
+## <a name="step-4"></a> Moving Files with scp
 ![Screenshot 1](photos/lr1/moving-files.png)
-## <a href="step-5"></a> Setting an SSH Key
+## <a name="step-5"></a> Setting an SSH Key
 ![Screenshot 1](photos/lr1/ssh-key.png)
-## <a href="step-6"></a> Optimizing Remote Running
+## <a name="step-6"></a> Optimizing Remote Running
 ![Screenshot 1](photos/lr1/optimizing-running.png)
 
 ---
