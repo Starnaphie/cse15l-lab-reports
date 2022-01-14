@@ -17,7 +17,7 @@ reference [this](https://www.attitudinalpsyche.com/attitudes/) page for more inf
 
 when you combine the 4 aspects and 4 positions, it results in 24 unique ap types 
 
-![Attitudinal Psyche Website Logo](photos/attitudinal-psyche.png)
+![Attitudinal Psyche Website Logo](photos/lr1/attitudinal-psyche.png)
 
 ---
 
