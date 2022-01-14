@@ -17,4 +17,4 @@ Here is an outline of the steps detailed on this page:
 ## <a href="step-5"></a> Setting an SSH Key
 ## <a href="step-6"></a> Optimizing Remote Running
 
-![Screenshot 1](lab-report-1-screenshot.png)
+![Screenshot 1](photos/lab-report-1-screenshot.png)
