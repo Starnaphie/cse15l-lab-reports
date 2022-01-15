@@ -63,7 +63,8 @@ If the following text shows up in your terminal, you're in!
 Next you can practice using some terminal commands!
 
 Try typing some of these into both your local and remote computers:<br/>
-> **```exit```** - will let you leave the remote server and return to your computer<br/>
+> **```exit```** - will let you leave the remote server and return to your computer
+
 - ```ls```
 - ```cd```
 - ```cd -a```
