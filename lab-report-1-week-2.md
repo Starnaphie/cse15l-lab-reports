@@ -92,16 +92,76 @@ With ```WhereAmI.java``` created, type
 
 > scp WhereAmI.java cs15lwi22[y/c]@ieng6.ucsd.edu:~/
 
-into your terminal. (**Remember to replace the ```[y/c]```**!) If that was successful, the terminal should ask you to enter your password; type in your course-specific account password. If unsuccessful, please do not contact me; contact your professor or TA. :v:
+into your terminal. (**Remember to replace the ```[y/c]```**!) If that was successful, the terminal should ask you to enter your password; type in your course-specific account password. If unsuccessful, please do not contact me; contact your professor or TA. :P
 
-![Screenshot 1](photos/lr1/moving-files.png)
+![Moving Files Success](photos/lr1/moving-files.png)
 
 To check if file was moved, you can return to the remote computer and ```ls``` to confirm! 
 
+(In fact, while you are on the remote computer, type in 
+
+> mkdir .ssh
+
+to make a directory that will be needed in the next step!)
+
 ## <a name="step-5"></a> Setting an SSH Key
-![Screenshot 1](photos/lr1/ssh-key.png)
+Having to type in your password everytime you log in to the remote computer can be time consuming. Wouldn't it be easier not to have to type it in every. single. time...
+
+![SSH Key At Work](photos/lr1/ssh-key.png)
+
+Introducing, private and public key pairs! :D Setting up an SSH key will allow you to access the remote computer without need for any password. Nifty, right?!
+
+On **your** computer (not the remote computer), type in the following.
+
+> ssh-keygen
+
+Your computer should have generated the key pair and will ask you to...
+
+```
+Enter file in which to save the key (some location): [same location they give you]
+``` 
+To respond, literally just copy and paste in the same location they give you, it works. (It may be useful to save this location somewhere as you will need to reference it later.) <br/>
+I actually messed up this next part, but the terminal will ask you to...
+
+```
+Enter passphrase (empty for no passphrase): [LEAVE EMPTY]
+```
+
+**Save yourself pain by not typing anything in.** It says ```empty for no passphrase```: you do not want to still have to enter a password just to access the access to the remote computer.
+
+Phew, now that the keys have been created, you need to move the public key from your computer to the remote computer.
+
+If you haven't done so already, make a directory called ```.ssh``` on the remote computer to save the key in.
+
+> ssh cs15lwi22[y/c]@ieng6.ucsd.edu
+
+enter password, the last time you will have to do so~
+
+> mkdir .ssh
+
+> exit
+
+Using the knowledge from the last step, you can transfer the public key to ```.ssh``` on the remote computer:
+
+> scp [the some location they gave you earlier].pub cs15lwi22[y/c]@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+(The location of you public key is the same as the location you entered to make the key + ```.pub```. You can also find the key where the terminal prints...<br/>
+```Your public key has been saved in [this location]```)
+
+Once you've done so, try logging onto the remote computer again! If it works smoothly, congrats! If not, see yourself to the timeout corner, then promptly contact your professor or TA. 
+
 ## <a name="step-6"></a> Optimizing Remote Running
+This tutorial's just about done now! Now you can practice sending code to the remote server and running it more efficiently.
+
+The professor has some hints, but I am legally obligated to not plagiarize. :P Access his site [here](https://ucsd-cse15l-w22.github.io/week/week1/#part-2--visual-studio-code).
+
+My tip is the ```alias``` command which basically allows you to create shortcuts for phrases you might commonly type. I, personally, created the alias ```ucs``` for ```ssh cs15lwi22[y/c]@ieng6.ucsd.edu``` by typing the following.
+
+> alias ucs="ssh cs15lwi22[y/c]@ieng6.ucsd.edu"
+
 ![Screenshot 1](photos/lr1/optimizing-running.png)
+
+Have fun with this information and I hope you have an amazing time in CSE 15L!
 
 ---
 ![Screenshot 1](photos/lr1/screenshot.png)
