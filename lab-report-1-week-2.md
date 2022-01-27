@@ -152,9 +152,25 @@ Using the knowledge from the last step, you can transfer the public key to ```.s
 Once you've done so, try logging onto the remote computer again! If it works smoothly, congrats! If not, see yourself to the timeout corner, then promptly contact your professor or TA. 
 
 ## <a name="step-6"></a> Optimizing Remote Running
-This tutorial's just about done now! Now you can practice sending code to the remote server and running it more efficiently.
+This tutorial's just about done now! Now you can practice sending code to the remote server and running it more efficiently. Typing in the same terminal command every time you need to run a program may total to a significant sum. Learning terminal tricks and shorthands can trim that total down.
 
-The professor has some hints, but I am legally obligated to not plagiarize. :P Access his site [here](https://ucsd-cse15l-w22.github.io/week/week1/#part-2--visual-studio-code).
+While it is impossible to run commands without typing what you desire to run at least once, you may reuse previously typed commands by clicking the ```upArrow```. Plus, commands can be strung together (so the command will be read and run one by one), if separated by a semi-colon (```;```).</br>
+For example, using these tricks, working with the terminal may look something like this...
+
+- Compile java and run the program on the same line 
+```
+javac WhereAmI.java; java WhereAmI
+```
+
+- ```upArrow``` - brings back command that was just run
+```
+// fills the following into the command prompt
+javac WhereAmI.java; java WhereAmI
+```
+- ```enter``` to run command
+- ```upArrow``` and ```enter``` to repeat command
+
+With this, after the repeated command is typed the first time, running that command all of the following times is reduced to **2** keystrokes. 
 
 My tip is the ```alias``` command which basically allows you to create shortcuts for phrases you might commonly type. I, personally, created the alias ```ucs``` for ```ssh cs15lwi22[y/c]@ieng6.ucsd.edu``` by typing the following.
 
