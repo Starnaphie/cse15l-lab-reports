@@ -154,7 +154,7 @@ Once you've done so, try logging onto the remote computer again! If it works smo
 ## <a name="step-6"></a> Optimizing Remote Running
 This tutorial's just about done now! Now you can practice sending code to the remote server and running it more efficiently. Typing in the same terminal command every time you need to run a program may total to a significant sum. Learning terminal tricks and shorthands can trim that total down.
 
-While it is impossible to run commands without typing what you desire to run at least once, you may reuse previously typed commands by clicking the ```upArrow```. Plus, commands can be strung together (so the command will be read and run one by one), if separated by a semi-colon (```;```).</br>
+While it is impossible to run commands without typing what you desire to run at least once, you may reuse previously typed commands by clicking the ```upArrow```. Plus, commands can be strung together (so the command will be read and run one by one), if separated by a semi-colon (```;```).<br/>
 For example, using these tricks, working with the terminal may look something like this...
 
 - Compile java and run the program on the same line 
