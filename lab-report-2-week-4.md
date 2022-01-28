@@ -1,9 +1,9 @@
 # Lab Report 2
 Three changes my group and I made to the ```MarkdownParse.java``` file~<br/>
 Each change elaborated on in this post will include the following...
-1) the link to the **failure-inducing** input that caused the symptom
-2) the faulty output
-3) a personal explanation
+1. the link to the **failure-inducing** input that caused the symptom
+2. the faulty output
+3. a personal explanation
 
 ## Code Change #1
 [**Input**](https://github.com/Starnaphie/markdown-parse/blob/main/test-file5.md)
