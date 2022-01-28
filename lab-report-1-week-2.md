@@ -157,26 +157,28 @@ This tutorial's just about done now! Now you can practice sending code to the re
 While it is impossible to run commands without typing what you desire to run at least once, you may reuse previously typed commands by clicking the ```upArrow```. Plus, commands can be strung together (so the command will be read and run one by one), if separated by a semi-colon (```;```).<br/>
 For example, using these tricks, working with the terminal may look something like this...
 
-- Compile java and run the program on the same line 
+- Send file to remote server + log in to remote server + compile java and run program on remote server on the same line 
 ```
-javac WhereAmI.java; java WhereAmI
+scp WhereAmI.java cs15lwi22[y/o]@ieng6.ucsd.edu:~/; ssh cs15lwi22[y/o]@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 
 - ```upArrow``` - brings back command that was just run
 ```
 // fills the following into the command prompt
-javac WhereAmI.java; java WhereAmI
+scp WhereAmI.java cs15lwi22[y/o]@ieng6.ucsd.edu:~/; ssh cs15lwi22[y/o]@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 - ```enter``` to run command
 - ```upArrow``` and ```enter``` to repeat command
 
 With this, after the repeated command is typed the first time, running that command all of the following times is reduced to **2** keystrokes. 
 
+![One Line Remote Running](photos/lr1/pleasant-remote-running.png)
+
 My tip is the ```alias``` command which basically allows you to create shortcuts for phrases you might commonly type. I, personally, created the alias ```ucs``` for ```ssh cs15lwi22[y/c]@ieng6.ucsd.edu``` by typing the following.
 
 > alias ucs="ssh cs15lwi22[y/c]@ieng6.ucsd.edu"
 
-![Screenshot 1](photos/lr1/optimizing-running.png)
+![Alias Command](photos/lr1/optimizing-running.png)
 
 Have fun with this information and I hope you have an amazing time in CSE 15L!
 
