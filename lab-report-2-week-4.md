@@ -26,13 +26,13 @@ The symptom that showed when ```test-file5.md``` was input was that the program 
 ![Fix #1](photos/lr2/pic1.png)
 
 ## Code Change #2
-[**Input**](https://github.com/kate-romero/markdown-parse/blob/main/test-file2.md)
+[**Input**](https://github.com/kate-romero/markdown-parse/blob/main/imageLink.md)
 
 **Output:**
 ```
 [thisisalink.com, thisisanimage, thisisanotherlink.org]
 ```
-The symptom that showed when ```test-file2.md``` was input was that image links in the markdown were printed. The bug was that the prograam failed to exam if there was an exclamation point(```!```), the indicator of an image, before the first open bracket (```[```).
+The symptom that showed when ```test-file2.md``` was input was that the image links in the markdown were printed. The bug was that the prograam failed to exam if there was an exclamation point(```!```), the indicator of an image, before the first open bracket (```[```).
 
 ![Fix #2](photos/lr2/pic2.png)
 
