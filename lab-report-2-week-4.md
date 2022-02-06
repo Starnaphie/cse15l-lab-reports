@@ -30,6 +30,7 @@ The symptom that showed when ```test-file5.md``` was input was that the program 
 
 **Output:**
 ```
+stephaniexu@stephanies-mbp markdown-parse % java MarkdownParse test-file2.md
 [thisisalink.com, thisisanimage, thisisanotherlink.org]
 ```
 The symptom that showed when ```test-file2.md``` was input was that the image links in the markdown were printed. The bug was that the prograam failed to exam if there was an exclamation point(```!```), the indicator of an image, before the first open bracket (```[```).
@@ -41,6 +42,7 @@ The symptom that showed when ```test-file2.md``` was input was that the image li
 
 **Output:**
 ```
+stephaniexu@stephanies-mbp markdown-parse % java MarkdownParse test-file4.md
 [something that is definitely NOT a link :p, https://starnaphie.github.io/cse15l-lab-reports/]
 ```
 The symptom that showed when ```test-file4.md``` was input was that anything in parentheses after a set of brackets was printed, regardless of whether it was a link or not. The bug was that the program didn't confirm if what it was adding to ```toReturn``` was a valid link.
