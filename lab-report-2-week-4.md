@@ -26,7 +26,8 @@ The symptom that showed when ```test-file5.md``` was input was that the program 
 ![Fix #1](photos/lr2/pic1.png)
 
 ## Code Change #2
-[**Input**](https://github.com/kate-romero/markdown-parse/blob/main/imageLink.md)
+[**Input**](https://github.com/kate-romero/markdown-parse/blob/main/imageLink.md)<br/>
+^ this is from my group member's repository - so, if they rename the test file, refer to [this](https://github.com/kate-romero/markdown-parse) link
 
 **Output:**
 ```
