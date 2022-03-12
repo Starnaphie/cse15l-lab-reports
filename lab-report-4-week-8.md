@@ -7,6 +7,9 @@ the result, however, is sadly disappointing. Perhaps writing the perfect link-fi
 2. [Snippet 2](#snippet-2)
 3. [Snippet 3](#snippet-3)
 
+Link for [my lab report](https://github.com/Starnaphie/markdown-parse)<br/>
+Link for [*other person*'s lab report](https://github.com/atruong39/markdown-parse)
+
 ## <a name="snippet-1"></a> Snippet 1
 Markdown for Snippet 1:
 ```
