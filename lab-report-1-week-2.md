@@ -1,6 +1,6 @@
 # Lab Report 1
 Hello, incoming CSE 15L student (or future me)! <br/>
-My name is Stephanie and I will be in charge of getting your course specific account on **ieng6** - the UCSD server that you, as a CSE student, have access to - set up. My credentials are that I myself have successfully been through this process... less than a week ago... and I did encounter ~~several~~ a higher-than-average number of obstacles along the way, but hopefully that will be sufficient. 
+My name is Stephanie and I will be in charge of getting your course specific account on **ieng6** - the UCSD server that you, as a CSE student, have access to - set up. My credentials are that I myself have successfully been through this process... less than a week ago... and I did encounter ~~several~~ a... number of obstacles along the way, but hopefully that will be sufficient. 
 
 Here is an outline of the steps detailed on this page:
 1. [Installing VScode](#step-1)
@@ -35,7 +35,7 @@ If you have an operating system that is not MacOs -> professor or TA ;D
 Part 1 of step 2, **Remotely Connecting**, will be the only part of the remainder of this tutorial not in VScode. Before remotely connecting to **ieng6**, you will need to set up your course-specific account. 
 
 You can go to **[this](https://sdacs.ucsd.edu/~icc/index.php)** link to get that done. This was the step I personally had the most difficulty with, so I will try to give some tips. 
-- Get this step done before class, because everyone trying to sign into the acccount lookup at the same time is hard on the server
+- Get this step done before class, because everyone trying to sign into the account lookup at the same time is hard on the server
 - The password requirements are as follows:
     - Be different from any previous passwords
     - Be at least 12 characters long
